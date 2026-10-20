@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cambridge O Level Mathematics 4024 Checklist</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="navbar">
+        <a href="/Math" class="nav-link">Math</a>
+        <a href="/Computer" class="nav-link">Computer</a>
+      </nav>
+
+      <header>
+        <div class="eyebrow">Study tracker · 2025–2027</div>
+        <h1>Mathematics <span style="color: var(--accent)">4024</span></h1>
+        <p class="subtitle">
+          Cambridge O Level syllabus checklist. Tick off topics as you revise.
+          Your progress is saved in this browser.
+        </p>
+      </header>
+      <section class="panel" aria-label="Study progress">
+        <div class="stats">
+          <div>
+            <div class="statline">
+              <span>Overall progress</span
+              ><strong id="progressText">0 of 0 topics</strong>
+            </div>
+            <progress id="progressBar" value="0" max="100"></progress>
+          </div>
+          <div class="percent" id="percent">0%</div>
+        </div>
+      </section>
+      <div class="tools">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search topics…"
+          aria-label="Search topics"
+        />
+        <button id="expandAll" type="button">Expand all</button>
+        <button id="collapseAll" type="button">Collapse all</button>
+        <button id="reset" type="button">Reset progress</button>
+      </div>
+      <div class="sections" id="sections"></div>
+      <div class="empty" id="empty">
+        No matching topics. The maths has successfully hidden from you.
+      </div>
+      <footer>
+        Checklist progress is stored locally in this browser using localStorage.
+        Clearing browser data may erase it.
+      </footer>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
